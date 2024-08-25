@@ -1,0 +1,26 @@
+
+
+#about{
+    transform: translateX(0px);
+    animation-name: example;
+    position: relative;
+    animation-duration: 8s;
+ animation-iteration-count:infinite ;
+  
+     background-color: dimgray;
+}
+@keyframes example{
+    from{
+        transform: translateX(0px);
+    }
+   
+    100%{
+        transform: translateX(250px);
+    }
+}
+@media screen and (min-width: 480px) {
+  #about{
+    animation: none;
+  }
+  }
+

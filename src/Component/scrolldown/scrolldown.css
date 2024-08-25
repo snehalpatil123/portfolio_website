@@ -1,0 +1,23 @@
+.scrolldown{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: bold;
+    background-color: transparent; 
+    z-index: 1;
+    bottom: 4em;
+    text-shadow: 1px 1px #45a29e;
+    color: #fff;
+    animation: 3s linear 1s infinite normal none running MoveUpDown;
+    .turn {
+        font-size: 30px;
+      cursor: pointer;
+      transform: rotate(90deg);
+    }
+  @keyframes MoveUpDown{
+      0%, 100%{
+      }
+      50%{
+          bottom:100px
+      }
+}}

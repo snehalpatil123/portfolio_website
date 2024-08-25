@@ -1,0 +1,18 @@
+img{
+    height: 25px;
+}
+.border-danger:hover{
+    background-color: red;
+    color: white;
+}
+.border-info:hover{
+    background-color: rgb(23, 81, 139);
+    color: white;
+}
+.border-dark:hover{
+    background-color: black;
+    color: white;
+}
+
+
+  
